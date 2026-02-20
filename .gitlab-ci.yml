@@ -1,0 +1,28 @@
+stages:
+  - build
+  - eslint
+  - prettier
+
+build_webapp:
+  stage: build
+  image: node:latest
+  cache:
+    paths:
+      - node_modules/
+  script:
+    - npm install
+    - npm run build
+
+lint_prettier:
+  stage: prettier
+  image: node:latest
+  script:
+    - npm ci
+    - npm run prettier-check
+
+lint_eslint:
+  stage: eslint
+  image: node:latest
+  script:
+    - npm ci
+    - npm run lint

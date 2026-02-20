@@ -2,7 +2,7 @@
 
 Dette er et prosjekt utviklet i **TMM4121**, hvor målet var å lage en moderne og brukervennlig flashcard-webapp som kan brukes i undervisning, selvstudium og generell læring. Brukere kan opprette egne flashcard-sett, søke etter andres sett og interagere med kortene på en enkel måte.
 
-## ✨ Funksjonalitet
+## Funksjonalitet
 - Opprettelse og administrasjon av flashcard-sett  
 - Søking og visning av andre brukeres sett  
 - Mulighet for å legge inn tekst og bilder  
@@ -10,7 +10,7 @@ Dette er et prosjekt utviklet i **TMM4121**, hvor målet var å lage en moderne 
 - Lagring av kort og sett i database  
 - Moderne, responsivt grensesnitt
 
-## 🛠️ Teknologistakk
+## Teknologistakk
 Prosjektet er bygget med:
 
 - **React** – komponentbasert UI  
@@ -22,7 +22,7 @@ Prosjektet er bygget med:
 
 Firebase ble valgt for å gjøre backend-delen enklere, slik at gruppen kunne fokusere mer på funksjonalitet og frontend-opplevelsen.
 
-## 📁 Prosjektstruktur (forenklet)
+## Prosjektstruktur (forenklet)
 /app
 /components
 /styles
